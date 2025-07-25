@@ -1,16 +1,19 @@
 import time
+
+#CREATE VARIABLES
+
 done = False
-
-lemonadeCost = 30.00
+lemonadeCost = 30.00 #lemonade costs a lot in this world
 breadCost = 1.00
+userMoney = 260 #user has a lot of cash
 
-userMoney = 26000000000
-
+#Creates a function that prints how much money the user has
 def printMoney():
     cash = str(userMoney)
     print("You have $", cash, "left")
     time.sleep(2)
 
+# Main loop
 while not done:
 
     print("======================================")
